@@ -31,7 +31,6 @@ def show_general_page():
         full_path =  f"data/{pic}"
         im = Image.open(full_path)
         st.image(im)
-    
         age = tmp['age']
         image_id = tmp['image_id']
         target = tmp['dx']
