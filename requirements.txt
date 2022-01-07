@@ -1,7 +1,5 @@
 streamlit
 numpy
-random
-PIL
 pandas
 tensorflow
 matplotlib
