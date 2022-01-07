@@ -1,0 +1,10 @@
+streamlit
+numpy
+opencv
+random
+PIL
+pandas
+tensorflow
+matplotlib
+keras
+cv2
