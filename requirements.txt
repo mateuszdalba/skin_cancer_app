@@ -3,7 +3,7 @@ numpy
 pandas
 tensorflow-cpu
 keras
-opencv
+opencv-python
 ffmpeg
 libsm6
 libxext6
