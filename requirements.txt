@@ -4,4 +4,4 @@ pandas
 tensorflow-cpu
 keras
 opencv-python-headless
-h5py
+python3-h5py
