@@ -5,15 +5,23 @@ import numpy as np
 import cv2
 import pandas as pd
 #from keras.preprocessing.image import load_img
+<<<<<<< HEAD
 from pyunpack import Archive
 
+=======
+import os 
+>>>>>>> 26b6fa4865d69c92f744646abd092d6a7a2b25ac
 
 
 def predict(image):
 
+<<<<<<< HEAD
     Archive('model/model_skin.7z').extractall("model/")
 
     model = tf.keras.models.load_model('model/model_skin.h5')
+=======
+    model = tf.keras.models.load_model('./model/model_skin.h5')
+>>>>>>> 26b6fa4865d69c92f744646abd092d6a7a2b25ac
     
     gender_target = {0:'Bowens disease',1:'basal cell carcinoma',2:'benign keratosis-like lesions',3:'dermatofibroma',4:'melanoma',5:'melanocytic nevi',6:'vascular lesions'}
 
