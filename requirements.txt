@@ -4,4 +4,3 @@ pandas
 tensorflow-cpu
 keras
 opencv-python
-ffmpeg
