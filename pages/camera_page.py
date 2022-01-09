@@ -28,9 +28,6 @@ def show_camera_page():
 
             break
 
-
-
-
     labels = st.button('Show labels descriptions')
     if labels == True:
         st.markdown("""
