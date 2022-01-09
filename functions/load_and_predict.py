@@ -10,7 +10,6 @@ import os
 
 def predict(image):
 
-   
     model = tf.keras.models.load_model('./model/model_skin.h5')
     
     gender_target = {0:'Bowens disease',1:'basal cell carcinoma',2:'benign keratosis-like lesions',3:'dermatofibroma',4:'melanoma',5:'melanocytic nevi',6:'vascular lesions'}
