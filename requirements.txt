@@ -6,3 +6,4 @@ keras
 opencv-python-headless
 h5py
 pyunpack
+patool
