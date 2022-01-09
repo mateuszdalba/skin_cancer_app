@@ -6,7 +6,8 @@ from functions.load_and_predict import predict
 def show_camera_page():
     st.title('Predict cancer using webcam')
     
-    st.info('Turn on webcam and zoom in on skin lesion and click "predict".')
+
+    st.info('Live prediction does not work on deployed app (yet). It works locally.')
     run = st.checkbox('Turn on webcam')
     FRAME_WINDOW = st.image([])
     
