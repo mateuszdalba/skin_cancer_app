@@ -2,6 +2,8 @@ streamlit
 numpy
 pandas
 tensorflow-cpu
-matplotlib
 keras
-python3-opencv
+opencv
+ffmpeg
+libsm6
+libxext6
