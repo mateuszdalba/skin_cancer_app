@@ -5,10 +5,13 @@ import numpy as np
 import cv2
 import pandas as pd
 #from keras.preprocessing.image import load_img
+from pyunpack import Archive
 
 
 
 def predict(image):
+
+    Archive('model/model_skin.7z').extractall("model/")
 
     model = tf.keras.models.load_model('model/model_skin.h5')
     
