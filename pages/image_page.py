@@ -1,7 +1,7 @@
 import streamlit as st
-import cv2
+#import cv2
 from PIL import Image 
-import PIL 
+#import PIL 
 import numpy as np
 from functions.load_and_predict import predict
 

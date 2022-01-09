@@ -1,13 +1,11 @@
-from tensorflow import keras
+#from tensorflow import keras
 import tensorflow as tf
-import os 
 import matplotlib.pyplot as plt
 import numpy as np
 import cv2
 import pandas as pd
-from keras.preprocessing.image import load_img
-import glob 
-import shutil
+#from keras.preprocessing.image import load_img
+
 
 
 def predict(image):

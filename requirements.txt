@@ -4,4 +4,4 @@ pandas
 tensorflow-cpu
 matplotlib
 keras
-opencv-python
+python3-opencv

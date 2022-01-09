@@ -1,7 +1,7 @@
 import streamlit as st
 import random
 import os
-from os import listdir
+#from os import listdir
 from PIL import Image 
 import pandas as pd
 
