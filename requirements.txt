@@ -3,4 +3,4 @@ numpy
 pandas
 tensorflow-cpu
 keras
-opencv-python
+opencv-python-headless
