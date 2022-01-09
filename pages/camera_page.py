@@ -7,7 +7,7 @@ def show_camera_page():
     st.title('Predict cancer using webcam')
     
 
-    st.info('Live prediction does not work on deployed app (yet). It works locally.')
+    st.info('Live prediction does not work on deployed app (yet). It works only locally.')
     run = st.checkbox('Turn on webcam')
     FRAME_WINDOW = st.image([])
     
