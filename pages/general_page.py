@@ -8,6 +8,9 @@ import pandas as pd
 def show_general_page():
     st.title('Examine changes on your skin')
 
+    #path2 = os.path.realpath("./model/model_skin.h5")
+    #st.write(path2)
+
     st.error('Warning ! Some photos might be drastic. ')
 
     st.markdown("""  
